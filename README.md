@@ -8,7 +8,7 @@ The aim of this project is to anonymize all these texts to
 remove any personal data.
 
 ## Introduction
-The goal of this project is to detect Personal data in preprocessed texts (in CONLL format : https://stackoverflow.com/questions/27416164/what-is-conll-data-format) using two implementations for each subproblem : K-nearest neighbour algorithm for classification in C++ and Deep neural classifier in Tensorflow 
+The goal of this project is to detect personal data in preprocessed texts (in CONLL format : https://stackoverflow.com/questions/27416164/what-is-conll-data-format) using two implementations for each subproblem : K-nearest neighbour algorithm for classification in C++ and Deep neural classifier in Tensorflow 
 
 ## Sub-problem 1
 The goal is to anonymize the ConLL2003 dataset, already pre-processed so that
