@@ -8,7 +8,7 @@ The aim of this project is to anonymize all these texts to
 remove any personal data.
 
 ## Introduction
-The goal of this project is to detect Personal data in preprocessed texts (in CONLL format : https://stackoverflow.com/questions/27416164/what-is-conll-data-format) using two implementations for each subproblem : K-nearest neighbour algorithm for classification in C++ and Deep neural classifier in Python 
+The goal of this project is to detect Personal data in preprocessed texts (in CONLL format : https://stackoverflow.com/questions/27416164/what-is-conll-data-format) using two implementations for each subproblem : K-nearest neighbour algorithm for classification in C++ and Deep neural classifier in Tensorflow 
 
 ## Sub-problem 1
 The goal is to anonymize the ConLL2003 dataset, already pre-processed so that
@@ -22,7 +22,8 @@ The goal is to build and compare classifiers for the original Named Entity Recog
 The goal is to test our models on other datasets.
 
 ## Details
-**Anonymization.ipynb : Transform tokens to embedded vectors using Bert
-
+**Anonymization.ipynb** : Transform tokens to embedded vectors using Bert
+**Data/transform-labels/** : Contains notebooks to transform labels ('PER','ORG','LOC','O',...) to one-hot encoded vectors
+**sub-problem3/evaluate_on_wikigold**
 
 Please find further details in the "final-report.pdf" that I wrote.
