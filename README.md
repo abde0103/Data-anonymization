@@ -26,4 +26,4 @@ The goal is to test our models on other datasets.
 **Data/transform-labels/** : Contains notebooks to transform labels ('PER','ORG','LOC','O',...) to one-hot encoded vectors
 **sub-problem3/evaluate_on_wikigold**
 
-Please find further details in the "final-report.pdf" that I wrote.
+Please find further details in the **final-report.pdf** that I wrote.
