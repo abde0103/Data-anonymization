@@ -1,5 +1,6 @@
 # Data-anonymization
 
+
 ## Scenario
 As a Data Scientist in an industry that deals with private data the (legal, not moral) problem is that the data comes from many
 countries, which don’t have the same legislation regarding private data, and
