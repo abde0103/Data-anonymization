@@ -11,16 +11,19 @@ remove any personal data.
 ## Introduction
 The goal of this project is to detect personal data in preprocessed texts (in CONLL format : https://stackoverflow.com/questions/27416164/what-is-conll-data-format) using two implementations for each subproblem : K-nearest neighbour algorithm for classification in C++ and Deep neural classifier in Tensorflow 
 
-## Sub-problem 1
+## Biclass-anonymization
 The goal is to anonymize the ConLL2003 dataset, already pre-processed so that
 each token (=sub-word) is represented as a numeric vector, one after another,
 without the notion of sentences and then classify the 'PER' (personal) labels vs the rest of labels.
 
-## Sub-problem 2
+## Multiclass-anonymization
 The goal is to build and compare classifiers for the original Named Entity Recognition (NER) problem in ConLL2003 i.e. not just for PERS vs rest. 
 
-## Sub-problem 3 
+## Other-evaluations 
 The goal is to test our models on other datasets like BTC and Wikigold datasets.
+
+## Models
+Contains two keras models to be loaded when evaluating the performance of the anonymization solution on BTC and Wikigold datasets
 
 ## Details
 **Anonymization.ipynb** : Transform tokens to embedded vectors using Bert  \
