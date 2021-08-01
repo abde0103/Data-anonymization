@@ -23,7 +23,7 @@ The goal is to build and compare classifiers for the original Named Entity Recog
 The goal is to test our models on other datasets like BTC and Wikigold datasets.
 
 ## Models
-Contains two keras models to be loaded when evaluating the performance of the anonymization solution on BTC and Wikigold datasets
+Contains two keras models to be loaded when evaluating the performance of the anonymization solution on BTC and Wikigold datasets.
 
 ## Details
 **Anonymization.ipynb** : Transform tokens to embedded vectors using Bert  \
