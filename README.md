@@ -25,7 +25,7 @@ The goal is to test our models on other datasets.
 **Anonymization.ipynb** : Transform tokens to embedded vectors using Bert  \
 **Data/transform-labels/** : Contains notebooks to transform labels ('PER','ORG','LOC','O',...) to one-hot encoded vectors  \
 **sub-problem3/evaluate_on_wikigold.ipynb** : A specific notebook to evaluate the NN implemented on Wikigold dataset  \
-**sub-problem3/evaluate_on_BTC.ipynb** : A specific notebook to evaluate the NN implemented on BTC dataset  \
+**sub-problem3/evaluate_on_BTC.ipynb** : A specific notebook to evaluate the NN implemented on BTC dataset  
 
 
 Please find further details in the **final-report.pdf** that I wrote.
