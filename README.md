@@ -20,7 +20,7 @@ without the notion of sentences and then classify the 'PER' (personal) labels vs
 The goal is to build and compare classifiers for the original Named Entity Recognition (NER) problem in ConLL2003 i.e. not just for PERS vs rest. 
 
 ## Sub-problem 3 
-The goal is to test our models on other datasets.
+The goal is to test our models on other datasets like BTC and Wikigold datasets.
 
 ## Details
 **Anonymization.ipynb** : Transform tokens to embedded vectors using Bert  \
